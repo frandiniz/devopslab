@@ -7,7 +7,7 @@ csrf = CSRFProtect(app)
 
 @app.route("/")
 def pagina_inicial():
-    return "Grupo 2"
+    return "Grupo 2 V3"
 
 @app.route('/bug')                                                                                                                                
 def bad():                                                                                                                                        
